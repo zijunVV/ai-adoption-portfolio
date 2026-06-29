@@ -39,25 +39,23 @@ export const featuredProjects: Project[] = [
     description:
       "Production AI platform for behavioral self-reflection. Instead of offering advice, the LLM asks one carefully calibrated question per interaction — designed to build the user's own thinking capacity.",
     tags: ["AI Adoption", "Prompt Engineering", "Behavioral Design", "Production AI", "Next.js", "Supabase"],
-    githubUrl: "#",
-    demoUrl: "#",
-    evidence: "Deployed on Vercel with real users. Production-monitored via function logs.",
+    demoUrl: "https://inner-order-os.vercel.app/",
+    evidence: "Deployed on Vercel with real users. Production-monitored via function logs. Source code available upon request for review.",
   },
   {
     title: "Bridge the Gap",
     description:
       "AI-powered cross-cultural understanding platform using food as a medium. Transforms moments of cultural confusion into opportunities for authentic human connection.",
     tags: ["AI Adoption", "Cross-Cultural", "Community Design", "LLM Integration"],
-    githubUrl: "#",
-    demoUrl: "#",
-    evidence: "Full-stack platform with community graph and AI cultural explanation.",
+    demoUrl: "https://bridge-the-gap-tan.vercel.app/",
+    evidence: "Full-stack platform with community graph and AI cultural explanation. Source code available upon request for review.",
   },
   {
     title: "Knowledge Capital OS",
     description:
       "Personal knowledge and business operating system that uses AI to transform scattered research and notes into structured insights, decisions, and reusable intellectual assets.",
     tags: ["Knowledge Workflow", "AI-Assisted Thinking", "Decision Support", "Information Architecture"],
-    githubUrl: "#",
+    githubUrl: "https://github.com/zijunVV/kcas-portfolio",
     evidence: "Workflow: capture → organize → research → insight → decision → asset → capital.",
   },
 ];
@@ -89,17 +87,16 @@ export const evidenceProjects: Project[] = [
     description:
       "Production AI platform for behavioral self-reflection. Built with Next.js 14, Supabase, Groq LLM, TypeScript, Vercel.",
     tags: ["Next.js 14", "Supabase", "Groq LLM", "TypeScript", "Vercel"],
-    githubUrl: "#",
     demoUrl: "#",
-    evidence: "Live production deployment with real users and function-log monitoring.",
+    evidence: "Live production deployment with real users and function-log monitoring. Source code available upon request for review.",
   },
   {
     title: "Bridge the Gap",
     description:
       "AI-powered cross-cultural understanding platform using food as a medium. Built with Next.js, LLM integration, community graph.",
     tags: ["Next.js", "LLM Integration", "Community Graph"],
-    githubUrl: "#",
     demoUrl: "#",
+    evidence: "Source code available upon request for review.",
   },
   {
     title: "Knowledge Capital OS",
