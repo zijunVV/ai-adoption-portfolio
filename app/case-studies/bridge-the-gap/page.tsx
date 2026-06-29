@@ -104,11 +104,13 @@ export default function BridgeTheGapPage() {
 
           <div className="mt-8">
             <a
-              href="#"
+              href="https://bridge-the-gap-tan.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-4 py-2 rounded text-sm font-medium"
-              style={{ border: "1px solid var(--accent-blue)", color: "var(--accent-blue)" }}
+              style={{ backgroundColor: "var(--accent-clay)", color: "#fff" }}
             >
-              GitHub →
+              Live Demo →
             </a>
           </div>
         </div>

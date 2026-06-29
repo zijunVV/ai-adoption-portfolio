@@ -114,14 +114,9 @@ export default function InnerOrderOSPage() {
 
           <div className="mt-8 flex gap-4">
             <a
-              href="#"
-              className="px-4 py-2 rounded text-sm font-medium"
-              style={{ border: "1px solid var(--accent-blue)", color: "var(--accent-blue)" }}
-            >
-              GitHub →
-            </a>
-            <a
-              href="#"
+              href="https://inner-order-os.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-4 py-2 rounded text-sm font-medium"
               style={{ backgroundColor: "var(--accent-clay)", color: "#fff" }}
             >

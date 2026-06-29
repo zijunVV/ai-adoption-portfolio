@@ -98,7 +98,9 @@ export default function KnowledgeCapitalPage() {
 
           <div className="mt-8">
             <a
-              href="#"
+              href="https://github.com/zijunVV/kcas-portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-4 py-2 rounded text-sm font-medium"
               style={{ border: "1px solid var(--accent-blue)", color: "var(--accent-blue)" }}
             >
