@@ -10,7 +10,7 @@ export default function Footer() {
         </p>
         <div className="flex items-center gap-6">
           <a
-            href="https://github.com"
+            href="https://github.com/zijunVV"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm transition-colors hover:underline"
@@ -19,7 +19,7 @@ export default function Footer() {
             GitHub
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/zijunwang-joey/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm transition-colors hover:underline"
@@ -28,7 +28,7 @@ export default function Footer() {
             LinkedIn
           </a>
           <a
-            href="mailto:your@email.com"
+            href="mailto:zijun.wangzj@hotmail.com"
             className="text-sm transition-colors hover:underline"
             style={{ color: "var(--accent-blue)" }}
           >

@@ -132,7 +132,7 @@ export default function WhyGreenTomatoPage() {
               Specialist role at GreenTomato.
             </p>
             <a
-              href="mailto:your@email.com"
+              href="mailto:zijun.wangzj@hotmail.com"
               className="inline-block px-5 py-2.5 rounded text-sm font-medium"
               style={{ backgroundColor: "var(--accent-clay)", color: "#fff" }}
             >
