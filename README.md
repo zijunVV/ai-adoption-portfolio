@@ -92,35 +92,10 @@ vercel
 
 ---
 
-## Placeholder Checklist
+## Remaining Open Items
 
-Before sharing this portfolio publicly, replace all placeholder values:
-
-### Personal links (components/Footer.tsx)
-- [ ] GitHub URL: replace `https://github.com` with your real GitHub profile
-- [ ] LinkedIn URL: replace `https://linkedin.com` with your real LinkedIn URL
-- [ ] Email: replace `your@email.com` with your real email
-
-### Contact link (app/why-greentomato/page.tsx)
-- [ ] Email in "Get in Touch" button: replace `your@email.com`
-
-### Project links (data/portfolio.ts)
-- [ ] Inner Order OS `githubUrl`: replace `"#"` with real GitHub repo URL
-- [ ] Inner Order OS `demoUrl`: replace `"#"` with real deployed URL
-- [ ] Bridge the Gap `githubUrl`: replace `"#"` with real GitHub repo URL
-- [ ] Bridge the Gap `demoUrl`: replace `"#"` with real deployed URL
-- [ ] Knowledge Capital OS `githubUrl`: replace `"#"` or remove
-- [ ] Digital Transformation Case Study `githubUrl`: replace `"#"` or remove
-- [ ] Solo Company Radar `githubUrl`: replace `"#"` or remove
-- [ ] KCAS `githubUrl`: replace `"#"` or remove
-
-### Case study page links
-- [ ] `app/case-studies/inner-order-os/page.tsx` — GitHub and Demo `href` values
-- [ ] `app/case-studies/bridge-the-gap/page.tsx` — GitHub `href`
-- [ ] `app/case-studies/knowledge-capital/page.tsx` — GitHub `href`
-
-### Evidence placeholders (app/claude-code/page.tsx)
-- [ ] Replace each `EvidencePlaceholder` with real screenshots from Claude Code sessions
+- **Evidence placeholders** (`app/claude-code/page.tsx`) — each `EvidencePlaceholder` still needs a real screenshot from an actual Claude Code session (workflow planning, prototyping, prompt iteration, code generation, documentation, debugging).
+- **Digital Transformation Case Study** (`data/portfolio.ts`, `evidenceProjects`) — currently has no `githubUrl`/`demoUrl`, so its card renders with no link at all. Either add a real link or remove the card.
 
 ---
 
