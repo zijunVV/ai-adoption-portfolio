@@ -87,7 +87,7 @@ export const evidenceProjects: Project[] = [
     description:
       "Production AI platform for behavioral self-reflection. Built with Next.js 14, Supabase, Groq LLM, TypeScript, Vercel.",
     tags: ["Next.js 14", "Supabase", "Groq LLM", "TypeScript", "Vercel"],
-    demoUrl: "#",
+    demoUrl: "https://inner-order-os.vercel.app/",
     evidence: "Live production deployment with real users and function-log monitoring. Source code available upon request for review.",
   },
   {
@@ -95,7 +95,7 @@ export const evidenceProjects: Project[] = [
     description:
       "AI-powered cross-cultural understanding platform using food as a medium. Built with Next.js, LLM integration, community graph.",
     tags: ["Next.js", "LLM Integration", "Community Graph"],
-    demoUrl: "#",
+    demoUrl: "https://bridge-the-gap-tan.vercel.app/",
     evidence: "Source code available upon request for review.",
   },
   {
@@ -103,28 +103,27 @@ export const evidenceProjects: Project[] = [
     description:
       "Personal knowledge and business operating system. AI-assisted thinking and decision support.",
     tags: ["Knowledge Workflow", "AI-Assisted Thinking", "Decision Support"],
-    githubUrl: "#",
+    githubUrl: "https://github.com/zijunVV/kcas-portfolio",
   },
   {
     title: "Digital Transformation Case Study",
     description:
       "Analysis and framework for organizational AI adoption.",
     tags: ["Digital Transformation", "Business Analysis", "AI Adoption Framework"],
-    githubUrl: "#",
   },
   {
     title: "Solo Company Radar",
     description:
       "Market research and company tracking tool.",
     tags: ["Market Research", "Company Tracking", "Business Intelligence"],
-    githubUrl: "#",
+    githubUrl: "https://github.com/zijunVV/kcas-research",
   },
   {
     title: "KCAS / Knowledge Capital Asset System",
     description:
       "Knowledge capture and asset classification system.",
     tags: ["Knowledge Management", "Asset Classification", "Information Architecture"],
-    githubUrl: "#",
+    githubUrl: "https://github.com/zijunVV/kcas-core",
   },
 ];
 

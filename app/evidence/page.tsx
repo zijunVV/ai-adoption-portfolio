@@ -23,18 +23,6 @@ export default function EvidencePage() {
             ))}
           </div>
 
-          <div
-            className="mt-10 rounded-lg p-6"
-            style={{ backgroundColor: "var(--bg-secondary)", border: "1px solid var(--border)" }}
-          >
-            <p className="text-sm font-semibold mb-2" style={{ color: "var(--text-primary)" }}>
-              A note on &ldquo;#&rdquo; links
-            </p>
-            <p className="text-sm" style={{ color: "var(--text-secondary)" }}>
-              GitHub and demo links above are placeholder — replace these with real URLs before sharing
-              this portfolio publicly. See the README for the placeholder checklist.
-            </p>
-          </div>
         </div>
       </section>
     </div>
