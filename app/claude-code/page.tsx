@@ -104,12 +104,11 @@ export default function ClaudeCodePage() {
                 <p className="text-sm leading-relaxed mb-3 pl-9" style={{ color: "var(--text-secondary)" }}>
                   {section.body}
                 </p>
-                <div className="pl-9">
-                  <EvidencePlaceholder
-                    label={section.placeholder}
-                    src={imageExists(section.image) ? section.image : undefined}
-                  />
-                </div>
+                {imageExists(section.image) && (
+                  <div className="pl-9">
+                    <EvidencePlaceholder label={section.placeholder} src={section.image} />
+                  </div>
+                )}
                 {i < sections.length - 1 && (
                   <div className="mt-8 border-b" style={{ borderColor: "var(--border)" }} />
                 )}
