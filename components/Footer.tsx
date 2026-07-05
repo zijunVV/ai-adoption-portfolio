@@ -10,6 +10,15 @@ export default function Footer() {
         </p>
         <div className="flex items-center gap-6">
           <a
+            href="https://zijunvv.github.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm transition-colors hover:underline"
+            style={{ color: "var(--accent-blue)" }}
+          >
+            Main Site
+          </a>
+          <a
             href="https://github.com/zijunVV"
             target="_blank"
             rel="noopener noreferrer"

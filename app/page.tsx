@@ -91,12 +91,12 @@ export default function Home() {
               style={{ backgroundColor: "var(--bg-secondary)", border: "1px solid var(--border)" }}
             >
               <h3 className="font-semibold mb-2" style={{ color: "var(--text-primary)" }}>
-                Why GreenTomato
+                My Approach
               </h3>
               <p className="text-sm mb-4" style={{ color: "var(--text-secondary)" }}>
-                What I bring to the AI Adoption Specialist role — and what makes GreenTomato the right fit.
+                What I bring to AI adoption, enablement, and digital transformation roles — and how I think about the work.
               </p>
-              <Link href="/why-greentomato" className="text-sm font-medium" style={{ color: "var(--accent-clay)" }}>
+              <Link href="/approach" className="text-sm font-medium" style={{ color: "var(--accent-clay)" }}>
                 Read more →
               </Link>
             </div>

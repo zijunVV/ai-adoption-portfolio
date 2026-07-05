@@ -11,7 +11,7 @@ const navLinks = [
   { label: "Claude Code", href: "/claude-code" },
   { label: "Evidence", href: "/evidence" },
   { label: "Lessons", href: "/lessons" },
-  { label: "Why GreenTomato", href: "/why-greentomato" },
+  { label: "Approach", href: "/approach" },
 ];
 
 const caseStudyLinks = [

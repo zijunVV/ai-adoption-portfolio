@@ -1,7 +1,7 @@
 import SectionHeader from "@/components/SectionHeader";
 
 export const metadata = {
-  title: "Why GreenTomato | AI Adoption Portfolio",
+  title: "Approach | AI Adoption Portfolio",
 };
 
 const whatIBring = [
@@ -23,13 +23,14 @@ const whatIBring = [
   },
 ];
 
-export default function WhyGreenTomatoPage() {
+export default function ApproachPage() {
   return (
     <div style={{ backgroundColor: "var(--bg-primary)" }}>
       <section className="py-14">
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
           <SectionHeader
-            title="Why GreenTomato"
+            title="My Approach"
+            subtitle="What I bring to AI adoption, enablement, and digital transformation roles."
           />
 
           {/* Main content */}
@@ -38,26 +39,27 @@ export default function WhyGreenTomatoPage() {
             style={{ backgroundColor: "var(--bg-secondary)", border: "1px solid var(--border)" }}
           >
             <p className="text-base leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-              I am interested in GreenTomato because the company focuses on practical AI enablement,
-              digital transformation, and helping organizations move from AI experimentation to real
-              implementation. My goal is to help organizations move beyond simply trying AI tools
-              toward building workflows that people genuinely adopt. I want to bridge business
-              challenges, AI capabilities, and human behavior — enabling organizations to create AI
-              solutions that are practical, trusted, and sustainable.
+              I work at the intersection of practical AI enablement, digital transformation, and
+              human behavior. My goal is to help organizations move beyond simply trying AI tools
+              toward building workflows that people genuinely adopt. The organizations I want to work
+              with share one belief: that the value of AI is realized not when a model works, but when
+              people change how they work because of it. I bridge business challenges, AI
+              capabilities, and human behavior — so that AI solutions become practical, trusted, and
+              sustainable.
             </p>
           </div>
 
           {/* Alignment points */}
           <div className="mb-10">
             <h2 className="text-lg font-semibold mb-5" style={{ color: "var(--text-primary)" }}>
-              Where my work aligns with GreenTomato&apos;s mission
+              How I think about AI adoption
             </h2>
             <div className="space-y-4">
               {[
                 {
                   point: "From experimentation to implementation",
                   detail:
-                    "My work on Inner Order OS demonstrates moving from prototype to a deployed, production-monitored system — the same journey GreenTomato helps organizations complete at scale.",
+                    "My work on Inner Order OS demonstrates moving from prototype to a deployed, production-monitored system — the same journey organizations must complete to turn AI pilots into real operational value.",
                 },
                 {
                   point: "Practical AI enablement",
@@ -124,12 +126,12 @@ export default function WhyGreenTomatoPage() {
             style={{ backgroundColor: "var(--bg-secondary)", border: "1px solid var(--border)" }}
           >
             <p className="font-semibold mb-2" style={{ color: "var(--text-primary)" }}>
-              Ready to discuss the role
+              Let&apos;s talk
             </p>
             <p className="text-sm mb-4" style={{ color: "var(--text-secondary)" }}>
-              I am available to walk through any of the projects above in detail, discuss the
-              adoption challenges I encountered, and talk about how I approach the AI Adoption
-              Specialist role at GreenTomato.
+              I am available to walk through any of the projects here in detail, discuss the adoption
+              challenges I encountered, and talk about how I would approach AI adoption in your
+              organization.
             </p>
             <a
               href="mailto:zijun.wangzj@hotmail.com"
