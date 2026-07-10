@@ -35,14 +35,6 @@ export const heroData = {
 
 export const featuredProjects: Project[] = [
   {
-    title: "Stock Analysis Tool",
-    description:
-      "Multi-market AI-powered stock analysis platform covering US equities, Hong Kong stocks, and Chinese A-shares. Users input ticker symbols to surface analytical insights, manage a personal watchlist, and run screening workflows—translating raw market data into decision-ready intelligence.",
-    tags: ["AI Adoption", "Decision Intelligence", "Financial Analysis", "Production AI", "Multi-Market"],
-    demoUrl: "https://stock-analyzer-60.vercel.app/",
-    evidence: "Live production deployment covering US, HK, and A-share markets with watchlist and screening functionality.",
-  },
-  {
     title: "Inner Order OS",
     description:
       "Production AI platform for behavioral self-reflection. Instead of offering advice, the LLM asks one carefully calibrated question per interaction — designed to build the user's own thinking capacity.",
@@ -59,6 +51,14 @@ export const featuredProjects: Project[] = [
     evidence: "Full-stack platform with community graph and AI cultural explanation. Source code available upon request for review.",
   },
   {
+    title: "Stock Analysis Tool",
+    description:
+      "Multi-market AI-powered stock analysis platform covering US equities, Hong Kong stocks, and Chinese A-shares. Users input ticker symbols to surface analytical insights, manage a personal watchlist, and run screening workflows—translating raw market data into decision-ready intelligence.",
+    tags: ["AI Adoption", "Decision Intelligence", "Financial Analysis", "Production AI", "Multi-Market"],
+    demoUrl: "https://stock-analyzer-60.vercel.app/",
+    evidence: "Live production deployment covering US, HK, and A-share markets with watchlist and screening functionality.",
+  },
+  {
     title: "Knowledge Capital OS",
     description:
       "Personal knowledge and business operating system that uses AI to transform scattered research and notes into structured insights, decisions, and reusable intellectual assets.",
@@ -69,12 +69,6 @@ export const featuredProjects: Project[] = [
 ];
 
 export const workflowCards: WorkflowCardData[] = [
-  {
-    title: "Stock Analysis Tool",
-    diagram: ["Input ticker", "AI surfaces analysis", "Screening workflow", "Watchlist", "Compare signals", "Investment decision"],
-    keyIdea:
-      "Designed an AI decision-support layer that converts raw multi-market data into structured, actionable investment intelligence.",
-  },
   {
     title: "Inner Order OS",
     diagram: ["User writes", "AI asks one precise question", "Reflection", "Memory", "Next action", "Daily habit", "Long-term behavior"],
@@ -88,6 +82,12 @@ export const workflowCards: WorkflowCardData[] = [
       "Transformed moments of cultural confusion into opportunities for cross-cultural interaction.",
   },
   {
+    title: "Stock Analysis Tool",
+    diagram: ["Input ticker", "AI surfaces analysis", "Screening workflow", "Watchlist", "Compare signals", "Investment decision"],
+    keyIdea:
+      "Designed an AI decision-support layer that converts raw multi-market data into structured, actionable investment intelligence.",
+  },
+  {
     title: "Knowledge Capital OS",
     diagram: ["Capture", "Organize", "Research", "Insight", "Decision", "Asset", "Capital"],
     keyIdea:
@@ -96,14 +96,6 @@ export const workflowCards: WorkflowCardData[] = [
 ];
 
 export const evidenceProjects: Project[] = [
-  {
-    title: "Stock Analysis Tool",
-    description:
-      "Multi-market AI-powered stock analysis platform. Covers US equities, Hong Kong stocks, and Chinese A-shares with ticker-based analysis, watchlist management, and stock screening workflows.",
-    tags: ["Production AI", "Decision Intelligence", "Financial Analysis", "Multi-Market"],
-    demoUrl: "https://stock-analyzer-60.vercel.app/",
-    evidence: "Live production deployment. Source code available upon request for review.",
-  },
   {
     title: "Inner Order OS",
     description:
@@ -119,6 +111,14 @@ export const evidenceProjects: Project[] = [
     tags: ["Next.js", "LLM Integration", "Community Graph"],
     demoUrl: "https://bridge-the-gap-tan.vercel.app/",
     evidence: "Source code available upon request for review.",
+  },
+  {
+    title: "Stock Analysis Tool",
+    description:
+      "Multi-market AI-powered stock analysis platform. Covers US equities, Hong Kong stocks, and Chinese A-shares with ticker-based analysis, watchlist management, and stock screening workflows.",
+    tags: ["Production AI", "Decision Intelligence", "Financial Analysis", "Multi-Market"],
+    demoUrl: "https://stock-analyzer-60.vercel.app/",
+    evidence: "Live production deployment. Source code available upon request for review.",
   },
   {
     title: "Knowledge Capital OS",
